@@ -1,0 +1,162 @@
+/*MediaQuery para Responsive*/
+
+@media only screen and (max-width: 600px) {
+  #seccion-desarrolloServicios, #seccion-socialMedia {
+    display: none;
+  }
+  /*#seccion-desarrolloServicios, #seccion-formulario{
+    flex-direction: row-reverse;
+  }*/
+  .tel-retuit {
+    font-size: 15px;
+  }
+  .logoRetuit-responsive {
+    width: 65%;
+    margin-top: 12%;
+    margin-left: 5%;
+    margin-bottom: 6%;
+  }
+  .logoRetuit-desarrollo, .logoRetuit-socialMedia {
+    display: none;
+  }
+  .card-formulario {
+    width: 80%;
+    height: 41% !important;
+    margin-bottom: 5%;
+  }
+  .container-desarrolloServicios--Responsive, .container-socialMedia--responsive {
+    padding: 10%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .logoRetuit-responsive {
+    display: none;
+  }
+  .container-desarrolloServicios--Responsive, .container-socialMedia--responsive {
+    display: none;
+  }
+}
+
+/*Termina mediaquery para responsive*/
+
+/*Fuentes*/
+
+@font-face {
+  font-family: "Trebuchet MS";
+  src: url(fonts/Trebuchet-MS.ttf);
+}
+
+@font-face {
+  font-family: "San Francisco";
+  src: url(fonts/SF-Font.dmg);
+}
+@font-face {
+  font-family: "Now";
+  src: url(fonts/NowBold.otf);
+}
+
+/*Terminan fuentes*/
+
+body {
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  background-image: url('../images/fondo_desarrolloweb.png');
+  /*background-position: center center;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 13px !important;
+  font-family: "Now";
+  color: #423e3c;
+  /*overflow: hidden;*/
+}
+
+/*Colores Fuentes*/
+
+.color-dorado {
+  color: #CE8E14
+}
+
+/*Header con logo y Tel*/
+
+.logoRetuit-tel {
+  width: 8%;
+}
+
+.logoRetuit-desarrollo, .logoRetuit-socialMedia {
+  width: 30%;
+  margin-top: 5%;
+}
+
+/* Sección Desarrollo Servicios*/
+
+.container-desarrolloServicios {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Trebuchet MS";
+}
+.container-socialMedia{
+  margin-top: 13%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.container-socialMedia{
+  font-size: 14px;
+  font-family: "Trebuchet MS"
+}
+
+.font-titulo {
+  font-family: "Trebuchet MS";
+}
+
+/* Formulario*/
+
+.card-formulario {
+  font-size: 13px;
+  color: #000000;
+  width: 80%;
+  height: 95%;
+  margin-right: 20%;
+  margin-left: 10%;
+  opacity: .7;
+  background-color: rgb(148, 148, 148) !important;
+}
+
+#input-formulario {
+  width: 100%;
+  height: 10% !important;
+  padding: 0px !important;
+}
+
+.btn-enviar {
+  margin-left: 35%;
+  margin-top: 3%;
+  text-align: center;
+  width: 30%;
+  height: 50%;
+}
+
+/*STYLES GRACIAS*/
+
+.container-texto {
+  margin-top: 20%;
+  margin-bottom: 15%;
+}
+
+.texto-azul {
+  color: #9fddee;
+  font-size: 70px;
+}
+
+.contactarnos {
+  font-family: "Now";
+  font-size: 35px;
+}
+
+.texto-negro {
+  color: #423e3c;
+}
