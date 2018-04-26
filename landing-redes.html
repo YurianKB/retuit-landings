@@ -4,122 +4,124 @@
 <head>
   <meta charset="utf-8">
   <title>Landing Retuit</title>
-
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/fonts.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 </head>
 
-<body>
-  <!--HEADER CONTIENE LOGO RETUIT Y TELÉFONO-->
-  <header>
-
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <img class="logoRetuit-socialMedia" src="images/logo_mini.svg">
-        </div>
-        <div class="col text-right">
-          <p class="tel-retuit color-dorado"><img class="logoRetuit-tel" src="images/TUIT.png">Tel. (55) 47-80-32-70</p>
-        </div>
+<!--Imágen y Teléfono-->
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <img class="logoRetuit-desarrollo" src="images/logo_mini.svg"> </div>
+      <div class="col">
+        <p class="tel-retuit color-dorado font-titulo"><img class="logoRetuit-tel" src="images/TUIT.png"><b>Tel. (55) 47-80-32-70</b></p>
       </div>
     </div>
+    <p class="tel-retuit--responsive color-dorado font-titulo"><img class="logoRetuit-tel--responsive" src="images/TUIT.png"><b>Tel. (55) 47-80-32-70</b></p>
+  </div>
+  </div>
+</header>
 
-  </header>
-
-
+<body>
   <!--CONTENIDO SOCIAL MEDIA-->
   <div class="container">
     <div class="row">
-
-      <div id="seccion-socialMedia" class="col">
-
-        <div class="container-socialMedia">
-          <h2 class="color-dorado font-titulo">SOCIAL MEDIA</h2>
-          <p>
+      <div id="seccion-desarrolloServicios" class="col">
+        <div class="container-desarrolloServicios">
+          <h1 class="color-dorado font-titulo"><b>SOCIAL MEDIA</b></h1>
+          <p class="color-negro">
             Las redes sociales son la herramienta que utilizamos para generar conexiones entre nuestros clientes y sus consumidores creando contenidos de valor. Nuestra innovadora forma de comunicar es el ingrediente esencial para catapultar tu marca y convertirnos
             en el socio de negocios que necesitas.
-            <h2 class="color-dorado font-titulo">SERVICIOS</h2>
-            <p>
-              <li>Estrategia digital</li>
-              <li>Community Management</li>
-              <li>Creación de contenido</li>
-              <li>Manejo de crisis</li>
-              <li>Reportes</li>
-              <li>Producción de video</li>
-            </p>
+          </p>
+          <h1 class="color-dorado font-titulo"><b>SERVICIOS</b></h1>
+          <p class="color-negro">
+            <li>Estrategia digital</li>
+            <li>Community Management</li>
+            <li>Creación de contenido</li>
+            <li>Manejo de crisis</li>
+            <li>Reportes</li>
+            <li>Producción de video</li>
+          </p>
         </div>
-
       </div>
-
-
-
+      <!--COLUMNA FORMULARIO-->
       <div class="col" id="sección-formulario">
         <!-- Logo para Responsive-->
-        <img class="logoRetuit-responsive" src="images/logo_mini.svg">
-        <!--Empieza Formulario-->
-        <div class="card card-formulario">
-          <div class="card-body">
-            <form>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Nombre</label>
-                <input type="email" class="form-control" id="input-formulario" aria-describedby="emailHelp" placeholder="">
-              </div>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Teléfono</label>
-                <input type="tel" class="form-control" id="input-formulario" aria-describedby="emailHelp" placeholder="">
-              </div>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Correo</label>
-                <input type="email" class="form-control" id="input-formulario" aria-describedby="emailHelp" placeholder="">
-              </div>
-              <label for="exampleInputEmail1">Tamaño de la Empresa</label>
-              <select class="form-control form-control-sm">
-                      <option>Menos de 10 colaboradores</option>
-                      <option>De 10 a 50 colaboradores</option>
-                      <option>Más de 50 colaboradores</option>
+        <img class="logoRetuit-responsive" src="images/logo_mini.svg"><br>
+        <p class="tel-retuit--responsive color-dorado font-titulo">
+       <!--Empieza Formulario-->
+          <div class="card card-formulario">
+            <div class="card-body">
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Nombre</label>
+                  <input type="text" class="form-control" id="input-formulario" aria-describedby="emailHelp" placeholder="">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Teléfono</label>
+                  <input type="number" class="form-control" id="input-formulario" aria-describedby="emailHelp" placeholder="">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Correo</label>
+                  <input type="email" class="form-control" id="input-formulario" aria-describedby="emailHelp" placeholder="">
+                </div>
+                <label for="exampleInputEmail1">Tamaño de la Empresa</label>
+                <select class="form-control form-control-sm">
+                <option>Menos de 10 colaboradores</option>
+                <option>De 10 a 50 colaboradores</option>
+                <option>Más de 50 colaboradores</option>
               </select><br>
-
-              <label for="exampleInputEmail1">¿En qué servicio estás interesado?</label>
-              <select class="form-control form-control-sm">
-                      <option>Estrategia digital</option>
-                      <option>Community Management</option>
-                      <option>Creación de contenido</option>
-                      <option>Manejo de crisis</option>
-                      <option>Reportes</option>
-                      <option>Producción de video</option>
+                <label for="exampleInputEmail1">¿En qué servicio estás interesado?</label>
+                <select class="form-control form-control-sm">
+                <option>Estrategia digital</option>
+                <option>Community Management</option>
+                <option>Creación de contenido</option>
+                <option>Manejo de crisis</option>
+                <option>Producción de video</option>
               </select>
-
-              <button type="submit" class="btn-enviar"><a href="gracias-r.html">Enviar</button></a>
-              </p>
-            </form>
+                <button type="submit" class="btn-enviar"><a href="gracias-r.html">ENVIAR</a></button>
+              </form>
+            </div>
           </div>
-        </div>
-        <!--Termina el Formulario-->
-
-        <!--CONTENIDO SOCIAL MEDIA RESPONSIVE-->
-        <div class="container-socialMedia--responsive">
-          <h2 class="color-dorado font-titulo">SOCIAL MEDIA</h2>
-          <p>
-            Las redes sociales son la herramienta que utilizamos para generar conexiones entre nuestros clientes y sus consumidores creando contenidos de valor. Nuestra innovadora forma de comunicar es el ingrediente esencial para catapultar tu marca y convertirnos
-            en el socio de negocios que necesitas.
-            <h2 class="color-dorado font-titulo">SERVICIOS</h2>
-            <p>
-              <li>Estrategia digital</li>
-              <li>Community Management</li>
-              <li>Creación de contenido</li>
-              <li>Manejo de crisis</li>
-              <li>Reportes</li>
-              <li>Producción de video</li>
-            </p>
-        </div>
+          <!--Termina el Formulario-->
+          <!--CONTENIDO SOCIAL MEDIA RESPONSIVE-->
+          <div class="container-desarrolloServicios--Responsive">
+            <span class="color-dorado font-titulo titulo-responsive"><br><b>SOCIAL MEDIA</b></span>
+            <p class="color-negro texto-desarrollo--responsive">
+              Las redes sociales son la herramienta que utilizamos para generar conexiones entre nuestros clientes y sus consumidores creando contenidos de valor. Nuestra innovadora forma de comunicar es el ingrediente esencial para catapultar tu marca y convertirnos
+              en el socio de negocios que necesitas.<BR><BR>
+              <span class="color-dorado font-titulo titulo-responsive"><b>SERVICIOS</b></span>
+              <p class="color-negro texto-desarrollo--responsive">
+                    <li>Estrategia digital</li>
+                <li>Community Management</li>
+                <li>Creación de contenido</li>
+                <li>Manejo de crisis</li>
+                <li>Reportes</li>
+                <li>Producción de video</li>
+              </p>
+          </div>
       </div>
     </div>
+  </div>
+
+  <!--Footer-->
+  <footer>
+    <div>
+      <div class="footer-text text-center">
+        <!-- Copyright -->
+        <div class="footer-copy">
+          <a><b>&copy; RETUIT</b><span class="number">2017</span></a>.
+        </div>
+        <!-- End Copyright -->
+      </div>
+    </div>
+  </footer>
+  <!-- BOOTSTRAP-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 </body>
-
-<!-- BOOTSTRAP-->
-
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
 </html>
